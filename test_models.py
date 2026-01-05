@@ -1,7 +1,7 @@
 from google import genai
 import time
 
-API_KEY = "AIzaSyCBFvxukPgvtCnSODN-K3KOqfd4qVQ82QE"
+API_KEY = "Your API_KEY"
 client = genai.Client(api_key=API_KEY)
 
 def test_model(model_name):
