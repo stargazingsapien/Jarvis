@@ -82,8 +82,6 @@ def run_jarvis():
                 
             elif "look at this" in query or "read screen" in query or "read my screen" in query or "on my screen" in query:
                 analyze_screen(query)
-                # We stay in active mode for follow-up questions or just break to standby?
-                # Usually vision queries are "one-off". Let's wait for next command.
                 
             elif "email" in query or "mail" in query or "inbox" in query:
                 check_emails()
