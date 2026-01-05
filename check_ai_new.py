@@ -1,6 +1,6 @@
 from google import genai
 
-API_KEY = "AIzaSyCBFvxukPgvtCnSODN-K3KOqfd4qVQ82QE"
+API_KEY = "Your API_KEY"
 client = genai.Client(api_key=API_KEY)
 
 with open("models_v2.txt", "w") as f:
